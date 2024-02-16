@@ -4,5 +4,5 @@ class Calculation:
     self.b = b
     self.operation = operation
 
-  def get_result(self):
+  def  get_result(self):
     return self.operation(self.a, self.b)
